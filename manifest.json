@@ -1,0 +1,31 @@
+{
+    "name": "TyperacerFriends",
+    "description": "This extension will help you stay in touch with your friends",
+    "author": "Makarev E., Valevin G.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "storage",
+        "webRequest"
+    ],
+    "host_permissions" : [
+        "http://*/",
+        "https://*/",
+        "https://typeracer.ru/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/imgs/icons8-anonymous-mask-16.png",
+            "32": "/imgs/icons8-anonymous-mask-32.png",
+            "48": "/imgs/icons8-anonymous-mask-48.png",
+            "128": "/imgs/icons8-anonymous-mask-128.png"
+        }
+    },
+    "icons": {
+        "16": "/imgs/icons8-anonymous-mask-16.png",
+        "32": "/imgs/icons8-anonymous-mask-32.png",
+        "48": "/imgs/icons8-anonymous-mask-48.png",
+        "128": "/imgs/icons8-anonymous-mask-128.png"
+    }
+}

@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat/Montserrat-Regular.eot');
+  src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/montserrat/Montserrat-Regular.woff2') format('woff2'),
+    url('/fonts/montserrat/Montserrat-Regular.woff') format('woff'),
+    url('/fonts/montserrat/Montserrat-Regular.ttf') format('truetype'),
+    url(fonts/montserrat/Montserrat-Regular.svg) format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  width: 345px;
+  /* height: 420px; */
+  /* background-color: #313235; */
+}
+
+body {
+  margin: none;
+}
+
+body.popup_window {
+  background-color: rgb(59, 62, 68);
+}
+
+.wrapper {
+  display: grid;
+
+  grid-template-areas:
+    "textareas button"
+    "friendlist"
+  ;
+  grid-template-columns: 5fr 1fr;
+  grid-template-rows: 84px 1fr;
+
+}
+
+
+.inputs {
+  margin-top: 19px;
+  margin-bottom: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.textarea {
+  resize: none;
+  height: 20px;
+  width: 270px;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.textarea:focus {
+  border-color: rgb(140, 228, 240);
+  outline: none;
+}
+
+.buttn {
+}
+
+button {
+  margin-top: 19px;
+  /* padding-right: 50px; */
+  height: 45px;
+  width: 45px;
+  outline: none;
+  text-align: center;
+  border: 5px;
+  border-radius: 5px;
+  background-color: rgb(140, 228, 240);
+}
+
+.anonImage {
+  margin-top: 4px;
+}
+
+button:active {
+  background-color: aliceblue;
+}
+
+
+.friendlist {
+  color: white;
+  padding-top: 6px;
+  width: 282px;
+  background-color: #313235
+}
+
+.listElements {
+  list-style: none;
+  font-size: 20px;
+  font-family: "Montserrat";
+  text-align: left;
+}
+
+ul.listElements {
+  /* width: 282px; */
+}
+
+li {
+  text-decoration: none;
+  padding-bottom: 6px;
+  margin-left: 34px
+}
+
+a:-webkit-any-link {
+  text-decoration: none !important;
+  color: white;
+  font-size: 23px;
+}

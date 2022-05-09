@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0
+    }
+  </style>
+</head>
+
+<body class="popup_window">
+  <div class="wrapper">
+
+    <div class="inputs">
+      <input type="text" id="friend" placeholder="Friend Name" class="textarea" />
+      <input type="text" id="url" placeholder="Friend Url" class="textarea" />
+    </div>
+
+    <div class="buttn">
+
+      <button id="addFriend" type="submit" value="Add">
+        <img src="imgs/icons8-anonymous-mask-32.png" alt="Добавить друга..." class="anonImage">
+      </button>
+    </div>
+
+    <div class="friendlist">
+      <ul class="listElements" id="frList">
+
+      </ul>
+    </div>
+    <!-- <img src="imgs/themeChangeIco.png" alt=""> -->
+    <!-- <img src="imgs/trash.png" alt=""> -->
+  </div>
+
+  <script type="text/javascript" src="scripts/jquery.js"></script>
+  <script type="text/javascript" src="scripts/jquery.ui.js"></script>
+  <script type="text/javascript" src="scripts/popup.js"></script>
+
+
+
+</body>
+
+</html>
